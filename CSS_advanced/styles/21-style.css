@@ -189,8 +189,7 @@ template {
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 
-    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,
-        sans-serif;
+    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,sans-serif;
     --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     --font-size-small: 1.2rem;
@@ -215,6 +214,7 @@ template {
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
+    --section-tagline-margin: 0;
     --footer-padding: 5rem 0 1rem;
 
     --nav-item-font-family: var(--font-family-title);
@@ -224,8 +224,6 @@ template {
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
-
-    --section-tagline-margin: 0;
 }
 
 *,
@@ -247,12 +245,7 @@ body {
     line-height: var(--line-height-base);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
