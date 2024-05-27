@@ -5,9 +5,9 @@ $font-small: 12px;
 body {
     font-size: $font-body;
     h1 {
-        font-size: 14px;
+        font-size: $font-size;
     }
     h1.smaller {
-        font-size: 12px;
+        font-size: $font-small;
     }
 }
