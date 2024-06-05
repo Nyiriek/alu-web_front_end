@@ -846,9 +846,6 @@ ul.row {
     font-variant: small-caps;
 }
 
-/*** FORM ***/
-/* Comment section
-    ============================= */
 .form {
     display: flex;
     flex-direction: column;
