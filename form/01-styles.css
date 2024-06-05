@@ -846,7 +846,7 @@ ul.row {
     font-variant: small-caps;
 }
 
-.form {
+form {
     display: flex;
     flex-direction: column;
     padding: 1rem 0;
